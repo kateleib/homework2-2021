@@ -1,6 +1,6 @@
 
 body{
-    font-style: 'Times New Roman', 'sans-serif';
+    font-family: 'Times New Roman', 'sans-serif';
     background-color: #000000;
     color: #FFFFFF
 } 
@@ -24,10 +24,15 @@ p {
 
 img {
     clear: both;
+    display: block;
     align-items: center;
     width: 550px;
 }
 
+div{
+    min-height: 150px;
+    padding: 25px;
+}
 #red {
     background-color: #FF0000;
     text-align: right;
