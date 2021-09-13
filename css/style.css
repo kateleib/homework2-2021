@@ -1,6 +1,6 @@
 
 body{
-    font-style: 'Times New Roman', 'sans-serif';
+    font-family: 'Times New Roman', 'sans-serif';
     background-color: #000000;
     color: #FFFFFF
 } 
@@ -24,6 +24,41 @@ p {
 
 img {
     clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     width: 550px;
+}
+
+div{
+    min-height: 150px;
+    padding: 25px;
+}
+#red {
+    background-color: #FF0000;
+    text-align: right;
+}
+
+#blue {
+    background-color: #0000FF;
+    text-align: left;
+}
+
+#yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    color: #000000;
+    text-shadow: 4px 4px 2px #c7e2c7; 
+}
+
+#green {
+    background-color: #008000;
+    text-align: left;
+}
+
+.footer p{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
